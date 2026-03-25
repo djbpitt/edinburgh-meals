@@ -1,0 +1,11 @@
+start = meals
+meals = element meals { meal+ }
+meal = element meal { date, venue, items, wine }
+date = element date { xsd:date }
+venue = element venue { name, url }
+name = element name { text }
+url = element url { xsd:anyURI }
+items = element items { who, item+ }
+who = attribute who { "Bethan" | "David" | "Norm" }
+item = element item { text }
+wine = element wine { text }
