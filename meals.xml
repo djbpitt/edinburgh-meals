@@ -6,6 +6,7 @@
     <venue>
       <name>Tipo</name>
       <url>https://tipoedinburgh.co.uk</url>
+      <michelin>Bib gourmand</michelin>
     </venue>
     <items who="David">
       <item>Negroni (Pickering’s gin)</item>
@@ -19,6 +20,7 @@
     <venue>
       <name>Noto</name>
       <url>https://notoedinburgh.co.uk/</url>
+      <michelin>Bib gourmand</michelin>
     </venue>
     <items who="David">
       <item>Martini (Pickering’s gin)</item>
@@ -27,5 +29,17 @@
       <item>Okonomiyaki, bbq octopus, katsuobushi</item>
     </items>
     <wine>Viognier/Roussane</wine>
+  </meal>
+  <meal>
+    <date>2026-03-25</date>
+    <venue>
+      <name>Condita</name>
+      <url>https://www.condita.co.uk/</url>
+      <michelin>*</michelin>
+    </venue>
+    <items who="David">
+      <item/>
+    </items>
+    <wine/>
   </meal>
 </meals>
