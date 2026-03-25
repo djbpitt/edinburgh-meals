@@ -1,6 +1,6 @@
 start = meals
 meals = element meals { meal+ }
-meal = element meal { date, venue, items, wine }
+meal = element meal { date, venue, items+, wine }
 date = element date { xsd:date }
 venue = element venue { name, url }
 name = element name { text }
