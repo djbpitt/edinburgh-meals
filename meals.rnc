@@ -4,9 +4,21 @@ meal = element meal { date, venue, items+, wine }
 date = element date { xsd:date }
 venue = element venue { name, url, michelin }
 michelin = element michelin { "*" | "Bib gourmand" | "(none)" }
-name = element name { text }
-url = element url { xsd:anyURI }
+name =
+  element name {
+    xsd:string { pattern = ".+" }
+  }
+url =
+  element url {
+    xsd:anyURI { pattern = ".+" }
+  }
 items = element items { who, item+ }
 who = attribute who { "Bethan" | "David" | "Norm" }
-item = element item { text }
-wine = element wine { text }
+item =
+  element item {
+    xsd:string { pattern = ".+" }
+  }
+wine =
+  element wine {
+    xsd:string { pattern = ".+" }
+  }

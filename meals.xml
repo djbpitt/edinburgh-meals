@@ -38,8 +38,8 @@
       <michelin>*</michelin>
     </venue>
     <items who="David">
-      <item/>
+      <item>Stuff</item>
     </items>
-    <wine/>
+    <wine>Stuff</wine>
   </meal>
 </meals>
